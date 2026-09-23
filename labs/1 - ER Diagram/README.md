@@ -271,7 +271,7 @@ WISHLIST_ITEM {
 
 RESERVATION {
     uuid reservation_id PK
-    uuid item_id FK UK
+    uuid item_id FK
     uuid user_id FK
     timestamp reserved_at
 }
